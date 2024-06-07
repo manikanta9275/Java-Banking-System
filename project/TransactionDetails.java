@@ -1,6 +1,6 @@
-import java.util.*;
+package project;
 
-class TransactionDetails {
+public class TransactionDetails {
     String name;
     String type;
     double amount;

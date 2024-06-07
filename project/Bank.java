@@ -1,10 +1,11 @@
-import project.TransactionDetails;
+package project;
+
 import java.util.*;
 
-class Bank {
-	Map<String, Double> cus_Accounts = new HashMap<>();
-	Map<Integer, String> cus_Accounts_num = new HashMap<>();
-	Stack<TransactionDetails> transactions = new Stack<>();
+public class Bank {
+	public Map<String, Double> cus_Accounts = new HashMap<>();
+	public Map<Integer, String> cus_Accounts_num = new HashMap<>();
+	public Stack<TransactionDetails> transactions = new Stack<>();
 
 	Scanner scanner = new Scanner(System.in);
 
